@@ -1,0 +1,78 @@
+
+body {
+    background-color: rgb(234, 224, 224);
+    padding: 0;
+    margin: 0;
+    
+
+    background-image:url(b.jpg);
+    background-size: cover;
+    
+    
+}
+#box{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin:50px auto;
+    background-color:black;
+    color:rgb(149, 240, 137);
+    text-align:center;
+    padding: 25px;
+    opacity: 50%;
+}
+
+img.floating{
+    float: right;
+    margin: 100px;
+    width: 500px;
+    border-radius: 3%;
+    border: 1px solid rgb(244, 236, 236);
+    box-shadow: 0 0 500px rgb(245, 241, 241);
+
+    
+
+}
+
+p.white, div.white{
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: 5px 3px 3px greenyellow;
+    color: rgba(0, 0,0, 0);
+
+}
+#boc{
+    display: inline-block;
+    border: 5px solid gold;
+    margin: 50px;
+    padding: 2px;
+    outline: 5px solid black;
+    outline-offset: 5px;
+}
+.header{
+    padding: 0;
+    margin: 0;
+    
+    background-color: aliceblue;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+}
+.big{
+    border: 2px solid black;
+    
+    
+    margin: 50px auto;
+    
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+
+}
+.colot{
+    background-color: transparent;
+        
+}
